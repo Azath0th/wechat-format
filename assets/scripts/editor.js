@@ -25,7 +25,7 @@ var app = new Vue({
         { label: '17px', value: '17px', desc: '正常' },
         { label: '18px', value: '18px', desc: '稍大' }
       ],
-      currentTheme: 'cyber',
+      currentTheme: 'default',
       themeOption: [
         { label: 'default', value: 'default', author: 'Lyric'},
         { label: 'lupeng', value: 'lupeng', author: '鲁鹏'},
@@ -35,8 +35,7 @@ var app = new Vue({
         default: defaultTheme,
         lupeng: lupengTheme,
         cyber: cyberTheme
-      },
-      aboutDialogVisible: false
+      }
     }
   },
   mounted () {

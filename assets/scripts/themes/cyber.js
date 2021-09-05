@@ -1,8 +1,8 @@
-var lupengTheme = {
+var cyberTheme  = {
     BASE: {
         'text-align': 'left',
         'color': '#595959',
-        'line-height': '1.55em',
+        'line-height': '1.8em',
         'letter-spacing': '0.06em'
     },
     BASE_BLOCK: defaultTheme.BASE_BLOCK,

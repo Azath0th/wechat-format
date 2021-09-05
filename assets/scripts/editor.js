@@ -20,18 +20,21 @@ var app = new Vue({
       currentFont: "Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
       currentSize: '16px',
       sizeOption: [
+        { label: '15px', value: '15px', desc: '较小' },
         { label: '16px', value: '16px', desc: '默认' },
         { label: '17px', value: '17px', desc: '正常' },
         { label: '18px', value: '18px', desc: '稍大' }
       ],
-      currentTheme: 'default',
+      currentTheme: 'cyber',
       themeOption: [
         { label: 'default', value: 'default', author: 'Lyric'},
-        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'}
+        { label: 'lupeng', value: 'lupeng', author: '鲁鹏'},
+        { label: 'cyber', value: 'cyber', author: 'Cyber'}
       ],
       styleThemes: {
         default: defaultTheme,
-        lupeng: lupengTheme
+        lupeng: lupengTheme,
+        cyber: cyberTheme
       },
       aboutDialogVisible: false
     }
